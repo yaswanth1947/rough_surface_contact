@@ -7,6 +7,9 @@ The file "rough_surface_cefn_g.R" generates rough surfaces with either Cauchy or
 The file "dcfft_g.m" solves the elastic contact problem for a given rough surface and outputs the contact evolution data. The dataset "data_emwes2048tm.mat" file corresponds to the influence coefficient data, which is necessary to run "dcfft_g.m" file. 
 
 The files "kappap_g.m" and "slope_g.m" plots $\kappa$, $\kappa^{\prime}$, and $\kappa^{\prime\prime}$ as a function of contact area evolution. 
+
+The file "Supplementary_Material.pdf" contains the contact area results corresponding to both the Cauchy and Dagum random surfaces
+without contact area correction near the perimeter of the contact zones. 
  
 References: 
 Davies TM, Bryant D. On circulant embedding for Gaussian random fields in R. Journal of Statistical Software. 2013 Nov 13;55:1-21. https://doi.org/10.18637/jss.v055.i09
