@@ -4,6 +4,8 @@ This repository contains the source code to reproduce the contact evolution resu
 
 The file "rough_surface_gen.R" generates rough surfaces with either Cauchy or Dagum autocorrelation functions. 
 
+The file "psd.ipynb" computes the power spectral density corresponding to a surface and generates a rough surface with the specified rms slope value.
+
 The file "dcfft_g.m" solves the elastic contact problem for a given rough surface and outputs the contact evolution data. The dataset "data_emwes2048tm.mat" file corresponds to the influence coefficient data, which is necessary to run "dcfft_g.m" file. 
 
 The files "kappap_g.m" and "slope_g.m" plots $\kappa$, $\kappa^{\prime}$, and $\kappa^{\prime\prime}$ as a function of contact area evolution. 
